@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="567.0" prefWidth="827.0" xmlns="http://javafx.com/javafx/8.0.172-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ticketsearcher.Controller">
+   <children>
+      <Button fx:id="btnSearch" layoutX="23.0" layoutY="54.0" mnemonicParsing="false" onAction="#handleButtonActionSearch" text="Search" />
+      <ListView fx:id="ticketList" layoutX="84.0" layoutY="190.0" prefHeight="331.0" prefWidth="694.0" />
+      <DatePicker fx:id="dpTravelDate" layoutX="84.0" layoutY="125.0" promptText="Date" />
+      <TextField fx:id="tbFrom" layoutX="84.0" layoutY="54.0" promptText="From" />
+      <TextField fx:id="tbTo" layoutX="273.0" layoutY="54.0" promptText="To" />
+      <Button fx:id="btnBook" layoutX="23.0" layoutY="200.0" mnemonicParsing="false" onAction="#handleButtonActionBook" text="Book" />
+   </children>
+</AnchorPane>
